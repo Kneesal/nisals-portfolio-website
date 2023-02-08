@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 99%;
+} */
+
+.items {
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.items:hover {
+    scale: 1.2;
+    cursor: pointer;
+}

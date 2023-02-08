@@ -1,0 +1,21 @@
+.contactbar{
+    display: block;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0; /* To remove default bottom margin */ 
+    padding: 0;
+}
+
+li {
+    padding: 2rem;
+}

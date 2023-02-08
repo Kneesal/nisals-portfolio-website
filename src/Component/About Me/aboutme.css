@@ -1,0 +1,11 @@
+.aboutme {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13rem;
+}

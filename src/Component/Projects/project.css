@@ -1,0 +1,15 @@
+.project-container {
+    height: 100vmax;
+    display: flex;
+    justify-content: center;
+}
+
+.project-flex-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13rem;
+    padding: 5rem
+
+
+}
