@@ -4,11 +4,11 @@
     padding: 10px;
 }
 
-/* .sticky {
+.sticky {
     position: fixed;
     top: 0;
     width: 99%;
-} */
+}
 
 .items {
     padding: 20px;
@@ -19,3 +19,4 @@
     scale: 1.2;
     cursor: pointer;
 }
+

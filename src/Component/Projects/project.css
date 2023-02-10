@@ -1,15 +1,28 @@
-.project-container {
-    height: 100vmax;
-    display: flex;
-    justify-content: center;
-}
-
 .project-flex-wrapper {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 13rem;
-    padding: 5rem
+    gap: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 13rem;
+}
 
+.description-wrapper{
 
 }
+
+.image-wrapper{
+
+}
+
+.image-project {
+
+}
+
+@media only screen 
+and (max-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+
+  }
