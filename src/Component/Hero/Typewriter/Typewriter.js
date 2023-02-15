@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import React, { useEffect, useState } from "react";    
 import './typewriter.css'
 
@@ -36,7 +35,7 @@ const Typewriter = () => {
             setReverse(false)
         }
 
-        const timeout = setTimeout(() => { //increases subindex to read work ever 1/10th millisec for typing effect
+        const timeout = setTimeout(() => { //increases subindex to read function ever 1/10th millisec for typing effect. pause for 2 seconds after word is typed
             setSubIndex( prev => reverse ? prev -1 : prev + 1)
         }, subIndex === wordCarosel[index].length ? 2000 : subIndex === 0 ? 1000 : 100)
 

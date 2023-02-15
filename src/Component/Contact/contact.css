@@ -5,10 +5,13 @@
 .footer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .items {
     text-decoration: none;
+    width: 5rem;
+    height: 5rem;
 }
 
 ul {

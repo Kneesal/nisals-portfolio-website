@@ -2,7 +2,7 @@ import React from "react";
 import './contact.css'
 
 const ContactMe = () => {
-  
+
   return (
     <div className="contactbar" >
       <h1 style = {{ paddingBottom: '3em'}} >Contact Me</h1>
