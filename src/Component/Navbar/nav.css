@@ -2,17 +2,26 @@
     display: flex;
     justify-content: flex-end;
     padding: 10px;
+    height: 3rem;
+    z-index: 1;
 }
 
 .sticky {
     position: fixed;
     top: 0;
     width: 99%;
+    transition: all 1s;
+}
+
+.navColor {
+    background-color: rgb(36, 37, 38);
+    transition: all 0.5s;
 }
 
 .items {
     padding: 20px;
     transition: 0.3s;
+    height: 100%;
 }
 
 .items:hover {

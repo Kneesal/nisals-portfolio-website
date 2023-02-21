@@ -2,6 +2,13 @@ import React from "react";
 import './project.css'
 import Tilt from 'react-parallax-tilt';
 
+// const projectDatabase = [
+//     {
+//         title: PokeDex,
+//         description: 
+//     }
+// ]
+
 const Projects = () => {
 
     return(
@@ -14,7 +21,7 @@ const Projects = () => {
                          <p> this is my project dawg this is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawg</p>
                     </div>
                     <div style = {{ width: '45rem', }}>
-                    <Tilt tiltMaxAngleX =  {10} tiltMaxAngleY =  {10} glareEnable = {true}>
+                    <Tilt tiltMaxAngleX =  {10} tiltMaxAngleY =  {10} glareEnable = {true} glareBorderRadius = "2em">
                         <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt = {'project'} style = {{ width: '100%', height: 'auto', borderRadius: '2rem'}}></img>
                     </Tilt>
                     </div>
@@ -25,7 +32,7 @@ const Projects = () => {
                          <p> this is my project dawg this is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawg</p>
                     </div>
                     <div style = {{ width: '45rem', }}>
-                    <Tilt tiltMaxAngleX =  {10} tiltMaxAngleY =  {10} glareEnable = {true}>
+                    <Tilt tiltMaxAngleX =  {10} tiltMaxAngleY =  {10} glareEnable = {true} glareBorderRadius = "2em">
                         <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt = {'project'} style = {{ width: '100%', height: 'auto', borderRadius: '2rem'}}></img>
                     </Tilt>
                     </div>
@@ -36,7 +43,7 @@ const Projects = () => {
                          <p> this is my project dawg this is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawg</p>
                     </div>
                     <div style = {{ width: '45rem', }}>
-                    <Tilt tiltMaxAngleX =  {10} tiltMaxAngleY =  {10} glareEnable = {true}>
+                    <Tilt tiltMaxAngleX =  {10} tiltMaxAngleY =  {10} glareEnable = {true} glareBorderRadius = "2em">
                         <img src="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" alt = {'project'} style = {{ width: '100%', height: 'auto', borderRadius: '2rem'}}></img>
                     </Tilt>
                     </div>

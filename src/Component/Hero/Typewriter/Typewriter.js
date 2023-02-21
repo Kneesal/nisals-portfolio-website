@@ -7,9 +7,10 @@ const Typewriter = () => {
     const [word, setWord] = useState('')
     const [reverse, setReverse] = useState(false)
 
-    const wordCarosel = ['Software Engineer', 'Programmer', 'Meme Lord', 'Gamer']
+
 
     useEffect(()=> {
+        const wordCarosel = ['Software Engineer', 'Programmer', 'Meme Lord', 'Gamer']
 
         if(subIndex < wordCarosel[index].length +1 && !reverse){
             setWord(wordCarosel[index].substring(0, subIndex))

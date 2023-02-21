@@ -1,3 +1,24 @@
+
+.contact-container {
+    margin: auto;
+    width: 100%;
+}
+
+.btn-calltoaction {
+    border: 2px solid white;
+    padding: 10px;
+    margin: 2rem;
+}
+
+.cta-text {
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .contactbar{
     display: block;
 }
@@ -16,9 +37,13 @@
 
 ul {
     margin: 0; /* To remove default bottom margin */ 
-    padding: 0;
+    padding: 0rem;
 }
 
 li {
     padding: 2rem;
 }
+
+/* * {
+    border: 1px solid red;
+} */
