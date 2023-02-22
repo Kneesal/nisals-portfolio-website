@@ -11,3 +11,21 @@
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+.hidden-left {
+    opacity: 0;
+    transform:translate(-10px);
+    transition: all 1s
+}
+
+.hidden-down {
+    opacity: 0;
+    transform:translate(0px, 20px);
+    transition: all 1s
+}
+
+.revealIn{
+    opacity: 1;
+    transform: translate(0px);
+    transition: all 1s
+}
