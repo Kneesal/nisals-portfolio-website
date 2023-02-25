@@ -3,12 +3,10 @@ import './contact.css'
 
 const ContactMe = () => {
 
-
-
   return (
       <div className="contact-container">
             <h1 style = {{ padding: '1em'}} >Contact Me</h1>
-            <div className="contact-wrapper load-hidden">
+            <div className="contact-wrapper">
                 <p className="cta-text">[Put your call to action here]</p>
                 <a
                   rel="noreferrer"

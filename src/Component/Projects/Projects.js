@@ -1,20 +1,17 @@
 import React from "react";     
 import './project.css'
 import Tilt from 'react-parallax-tilt';
-
-// const projectDatabase = [
-//     {
-//         title: PokeDex,
-//         description: 
-//     }
-// ]
+import {Animate} from '../Animate In/AnimateIn.js'
 
 const Projects = () => {
 
     return(
         <div style={{paddingBottom: '5rem'}}>
             <div className="">
+            <Animate.FadeUp>
             <h1 style = {{ padding: '3em'}}>Projects</h1>
+            </Animate.FadeUp>
+            <Animate.FadeUp>
                 <div className="project-flex-wrapper">
                     <div style = {{ overflowWrap: "break-word", width: '400px', textAlign: "left"}}>
                         <h1> FaceGPT</h1>
@@ -26,6 +23,8 @@ const Projects = () => {
                     </Tilt>
                     </div>
                 </div> 
+            </Animate.FadeUp>
+            <Animate.FadeUp>
                 <div className="project-flex-wrapper">
                     <div style = {{ overflowWrap: "break-word", width: '400px', textAlign: "left"}}>
                     <h1> PokeDex</h1>
@@ -37,7 +36,9 @@ const Projects = () => {
                     </Tilt>
                     </div>
                 </div> 
-                                <div className="project-flex-wrapper">
+            </Animate.FadeUp>
+            <Animate.FadeUp>
+                <div className="project-flex-wrapper">
                     <div style = {{ overflowWrap: "break-word", width: '400px', textAlign: "left"}}>
                     <h1> Student Life Landing Page</h1>
                          <p> this is my project dawg this is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawg</p>
@@ -48,6 +49,7 @@ const Projects = () => {
                     </Tilt>
                     </div>
                 </div> 
+            </Animate.FadeUp>
             </div>
         </div>
     )
