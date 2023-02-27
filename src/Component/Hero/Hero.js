@@ -6,7 +6,6 @@ const Hero = () => {
 
     return(
         <div className="hero">
-            <img src=""></img>
             <h1><Typewriter/></h1>
         </div>
     )

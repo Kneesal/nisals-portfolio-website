@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./React App_files/bundle.js"></script><style>body {
+  margin: 0;
+  height: 100vmax;
+  text-align: center;
+  color: whitesmoke;
+  background: #000428;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1QsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQixpQkFBaUI7RUFDakIsbUJBQW1CLEdBQUcsOEJBQThCLEdBQ2MsK0JBQStCO0VBQ2pHLHVEQUF1RCxFQUFFLHFFQUFxRTs7RUFFOUg7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiOztBQUVBO0VBQ0UscUJBQXFCO0FBQ3ZCIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgaGVpZ2h0OiAxMDB2bWF4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGNvbG9yOiB3aGl0ZXNtb2tlO1xuICBiYWNrZ3JvdW5kOiAjMDAwNDI4OyAgLyogZmFsbGJhY2sgZm9yIG9sZCBicm93c2VycyAqL1xuICBiYWNrZ3JvdW5kOiAtd2Via2l0LWxpbmVhci1ncmFkaWVudCh0byByaWdodCwgIzAwNGU5MiwgIzAwMDQyOCk7ICAvKiBDaHJvbWUgMTAtMjUsIFNhZmFyaSA1LjEtNiAqL1xuICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gcmlnaHQsICMwMDRlOTIsICMwMDA0MjgpOyAvKiBXM0MsIElFIDEwKy8gRWRnZSwgRmlyZWZveCAxNissIENocm9tZSAyNissIE9wZXJhIDEyKywgU2FmYXJpIDcrICovXG5cbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cblxudWwge1xuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px;
+    height: 3rem;
+    z-index: 1;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 99%;
+    transition: all 1s;
+}
+
+.navColor {
+    background-color: rgb(36, 37, 38);
+    transition: all 0.5s;
+}
+
+.items {
+    padding: 20px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.items:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .items {
+        display: none;
+        transition: all 0.3s;
+    }
+
+    .show {
+        display: flex;
+        transition: 0.3s;
+        padding-right: 20px;
+        background-color: grey;
+        text-align: right;
+        margin-left: auto;
+        width: 25%;
+        transition:all 0.5s;
+    }
+
+    .burger {
+        display: inline;
+        padding: 0px;
+        transition: 0.3s;
+        cursor: pointer;
+        height: 100%;
+        padding-right: 2rem;
+    }
+
+    .burger-container {
+        width: 40px;
+        height: 100%;
+    }
+
+    .block{
+        display: block;
+        transition: 0.3s;
+    }
+
+    .block:hover{
+        scale: 1.2;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .burgerImage {
+        height: 100%;
+        width: 40px;
+    }
+
+    .nav {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    ul.sticky {
+        top: 60px
+    }
+
+  }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnQvTmF2YmFyL25hdi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IseUJBQXlCO0lBQ3pCLHVCQUF1QjtJQUN2QixhQUFhO0lBQ2IsWUFBWTtJQUNaLFVBQVU7QUFDZDs7QUFFQTtJQUNJLGVBQWU7SUFDZixNQUFNO0lBQ04sVUFBVTtJQUNWLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGlDQUFpQztJQUNqQyxvQkFBb0I7QUFDeEI7O0FBRUE7SUFDSSxhQUFhO0lBQ2IsZ0JBQWdCO0lBQ2hCLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxVQUFVO0lBQ1YsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGFBQWE7QUFDakI7OztBQUdBO0lBQ0k7UUFDSSxhQUFhO1FBQ2Isb0JBQW9CO0lBQ3hCOztJQUVBO1FBQ0ksYUFBYTtRQUNiLGdCQUFnQjtRQUNoQixtQkFBbUI7UUFDbkIsc0JBQXNCO1FBQ3RCLGlCQUFpQjtRQUNqQixpQkFBaUI7UUFDakIsVUFBVTtRQUNWLG1CQUFtQjtJQUN2Qjs7SUFFQTtRQUNJLGVBQWU7UUFDZixZQUFZO1FBQ1osZ0JBQWdCO1FBQ2hCLGVBQWU7UUFDZixZQUFZO1FBQ1osbUJBQW1CO0lBQ3ZCOztJQUVBO1FBQ0ksV0FBVztRQUNYLFlBQVk7SUFDaEI7O0lBRUE7UUFDSSxjQUFjO1FBQ2QsZ0JBQWdCO0lBQ3BCOztJQUVBO1FBQ0ksVUFBVTtRQUNWLGVBQWU7UUFDZixnQkFBZ0I7SUFDcEI7O0lBRUE7UUFDSSxZQUFZO1FBQ1osV0FBVztJQUNmOztJQUVBO1FBQ0ksMkJBQTJCO1FBQzNCLHNCQUFzQjtRQUN0QixxQkFBcUI7SUFDekI7O0lBRUE7UUFDSTtJQUNKOztFQUVGIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdiB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kO1xuICAgIGFsaWduLWl0ZW1zOiBmbGV4LXN0YXJ0O1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgaGVpZ2h0OiAzcmVtO1xuICAgIHotaW5kZXg6IDE7XG59XG5cbi5zdGlja3kge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDA7XG4gICAgd2lkdGg6IDk5JTtcbiAgICB0cmFuc2l0aW9uOiBhbGwgMXM7XG59XG5cbi5uYXZDb2xvciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDM2LCAzNywgMzgpO1xuICAgIHRyYW5zaXRpb246IGFsbCAwLjVzO1xufVxuXG4uaXRlbXMge1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgdHJhbnNpdGlvbjogMC4zcztcbiAgICBoZWlnaHQ6IDEwMCU7XG59XG5cbi5pdGVtczpob3ZlciB7XG4gICAgc2NhbGU6IDEuMjtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi5idXJnZXIge1xuICAgIGRpc3BsYXk6IG5vbmU7XG59XG5cblxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MDBweCkge1xuICAgIC5pdGVtcyB7XG4gICAgICAgIGRpc3BsYXk6IG5vbmU7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjNzO1xuICAgIH1cblxuICAgIC5zaG93IHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgdHJhbnNpdGlvbjogMC4zcztcbiAgICAgICAgcGFkZGluZy1yaWdodDogMjBweDtcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogZ3JleTtcbiAgICAgICAgdGV4dC1hbGlnbjogcmlnaHQ7XG4gICAgICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgICAgICB3aWR0aDogMjUlO1xuICAgICAgICB0cmFuc2l0aW9uOmFsbCAwLjVzO1xuICAgIH1cblxuICAgIC5idXJnZXIge1xuICAgICAgICBkaXNwbGF5OiBpbmxpbmU7XG4gICAgICAgIHBhZGRpbmc6IDBweDtcbiAgICAgICAgdHJhbnNpdGlvbjogMC4zcztcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDJyZW07XG4gICAgfVxuXG4gICAgLmJ1cmdlci1jb250YWluZXIge1xuICAgICAgICB3aWR0aDogNDBweDtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgIH1cblxuICAgIC5ibG9ja3tcbiAgICAgICAgZGlzcGxheTogYmxvY2s7XG4gICAgICAgIHRyYW5zaXRpb246IDAuM3M7XG4gICAgfVxuXG4gICAgLmJsb2NrOmhvdmVye1xuICAgICAgICBzY2FsZTogMS4yO1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIHRyYW5zaXRpb246IDAuM3M7XG4gICAgfVxuXG4gICAgLmJ1cmdlckltYWdlIHtcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICB3aWR0aDogNDBweDtcbiAgICB9XG5cbiAgICAubmF2IHtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0O1xuICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICBhbGlnbi1pdGVtczogZmxleC1lbmQ7XG4gICAgfVxuXG4gICAgdWwuc3RpY2t5IHtcbiAgICAgICAgdG9wOiA2MHB4XG4gICAgfVxuXG4gIH0iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.blinking-cursor::after {
+    content: "|";
+    animation: blink 1s step-end infinite;
+  }
+  
+  @keyframes blink {
+    from,
+    to {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  };
+  
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnQvSGVyby9UeXBld3JpdGVyL3R5cGV3cml0ZXIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLHFDQUFxQztFQUN2Qzs7RUFFQTtJQUNFOztNQUVFLFVBQVU7SUFDWjtJQUNBO01BQ0UsVUFBVTtJQUNaO0VBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyIuYmxpbmtpbmctY3Vyc29yOjphZnRlciB7XG4gICAgY29udGVudDogXCJ8XCI7XG4gICAgYW5pbWF0aW9uOiBibGluayAxcyBzdGVwLWVuZCBpbmZpbml0ZTtcbiAgfVxuICBcbiAgQGtleWZyYW1lcyBibGluayB7XG4gICAgZnJvbSxcbiAgICB0byB7XG4gICAgICBvcGFjaXR5OiAxO1xuICAgIH1cbiAgICA1MCUge1xuICAgICAgb3BhY2l0eTogMDtcbiAgICB9XG4gIH07XG4gICJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnQvSGVyby9oZXJvLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7SUFDYix1QkFBdUI7SUFDdkIsbUJBQW1CO0lBQ25CLGFBQWE7SUFDYixvQkFBb0I7QUFDeEIiLCJzb3VyY2VzQ29udGVudCI6WyIuaGVybyB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgbWFyZ2luLWJvdHRvbTogMTAwcHg7XG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.aboutme {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnQvQWJvdXQgTWUvYWJvdXRtZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHVCQUF1QjtJQUN2QixtQkFBbUI7SUFDbkIsZUFBZTtJQUNmLFNBQVM7SUFDVCxpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCIiwic291cmNlc0NvbnRlbnQiOlsiLmFib3V0bWUge1xuICAgIGhlaWdodDogMTAwJTtcbn1cblxuLmZsZXgge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBmbGV4LXdyYXA6IHdyYXA7XG4gICAgZ2FwOiA1cmVtO1xuICAgIG1hcmdpbi1sZWZ0OiAxcmVtO1xuICAgIG1hcmdpbi1yaWdodDogMXJlbTtcbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.project-flex-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 13rem;
+}
+
+/* .description-wrapper{
+
+}
+
+.image-wrapper{
+
+}
+
+.image-project {
+
+}
+
+@media only screen 
+and (max-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+
+  } */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnQvUHJvamVjdHMvcHJvamVjdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsdUJBQXVCO0lBQ3ZCLGVBQWU7SUFDZixTQUFTO0lBQ1QsaUJBQWlCO0lBQ2pCLGtCQUFrQjtJQUNsQixxQkFBcUI7QUFDekI7O0FBRUE7Ozs7Ozs7Ozs7Ozs7Ozs7O0tBaUJLIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2plY3QtZmxleC13cmFwcGVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgIGZsZXgtd3JhcDogd3JhcDtcbiAgICBnYXA6IDVyZW07XG4gICAgbWFyZ2luLWxlZnQ6IDFyZW07XG4gICAgbWFyZ2luLXJpZ2h0OiAxcmVtO1xuICAgIHBhZGRpbmctYm90dG9tOiAxM3JlbTtcbn1cblxuLyogLmRlc2NyaXB0aW9uLXdyYXBwZXJ7XG5cbn1cblxuLmltYWdlLXdyYXBwZXJ7XG5cbn1cblxuLmltYWdlLXByb2plY3Qge1xuXG59XG5cbkBtZWRpYSBvbmx5IHNjcmVlbiBcbmFuZCAobWF4LXdpZHRoOiA4MTJweClcbmFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAzKSB7XG5cblxuICB9ICovIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>
+.contact-container {
+    margin: auto;
+    width: 100%;
+}
+
+.btn-calltoaction {
+    border: 2px solid white;
+    padding: 10px;
+    margin: 2rem;
+}
+
+.cta-text {
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactbar{
+    display: block;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.items {
+    text-decoration: none;
+    width: 5rem;
+    height: 5rem;
+}
+
+ul {
+    margin: 0; /* To remove default bottom margin */ 
+    padding: 0rem;
+}
+
+li {
+    padding: 2rem;
+}
+
+/* * {
+    border: 1px solid red;
+} */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9Db21wb25lbnQvQ29udGFjdC9jb250YWN0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7SUFDSSxZQUFZO0lBQ1osV0FBVztBQUNmOztBQUVBO0lBQ0ksdUJBQXVCO0lBQ3ZCLGFBQWE7SUFDYixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksYUFBYTtBQUNqQjs7QUFFQTtJQUNJLHFCQUFxQjtJQUNyQixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksY0FBYztBQUNsQjs7QUFFQTtJQUNJLGFBQWE7SUFDYix1QkFBdUI7SUFDdkIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLHFCQUFxQjtJQUNyQixXQUFXO0lBQ1gsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLFNBQVMsRUFBRSxvQ0FBb0M7SUFDL0MsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLGFBQWE7QUFDakI7O0FBRUE7O0dBRUciLCJzb3VyY2VzQ29udGVudCI6WyJcbi5jb250YWN0LWNvbnRhaW5lciB7XG4gICAgbWFyZ2luOiBhdXRvO1xuICAgIHdpZHRoOiAxMDAlO1xufVxuXG4uYnRuLWNhbGx0b2FjdGlvbiB7XG4gICAgYm9yZGVyOiAycHggc29saWQgd2hpdGU7XG4gICAgcGFkZGluZzogMTBweDtcbiAgICBtYXJnaW46IDJyZW07XG59XG5cbi5jdGEtdGV4dCB7XG4gICAgcGFkZGluZzogMnJlbTtcbn1cblxuYSB7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgIGNvbG9yOiB3aGl0ZTtcbn1cblxuLmNvbnRhY3RiYXJ7XG4gICAgZGlzcGxheTogYmxvY2s7XG59XG5cbi5mb290ZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgZmxleC13cmFwOiB3cmFwO1xufVxuXG4uaXRlbXMge1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICB3aWR0aDogNXJlbTtcbiAgICBoZWlnaHQ6IDVyZW07XG59XG5cbnVsIHtcbiAgICBtYXJnaW46IDA7IC8qIFRvIHJlbW92ZSBkZWZhdWx0IGJvdHRvbSBtYXJnaW4gKi8gXG4gICAgcGFkZGluZzogMHJlbTtcbn1cblxubGkge1xuICAgIHBhZGRpbmc6IDJyZW07XG59XG5cbi8qICoge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHJlZDtcbn0gKi8iXSwic291cmNlUm9vdCI6IiJ9 */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div class="navColor sticky nav"><div class=" burger burger-container"><img src="./React App_files/8805049.png" alt="burger" class="burgerImage"></div><ul class="sticky nav"><li class="items"> Home </li><li class="items"> About Me</li><li class="items"> Projects</li><li class="items"> Contact </li></ul></div><div class="hero"><h1><div><p>Hello my name is Nisal</p><div style="display: flex; align-items: center; justify-content: center; gap: 0.2em; flex-wrap: wrap;"><div><p> I am a </p></div><p style="color: yellow;">Programmer</p><div class="blinking-cursor"></div></div></div></h1></div><div style="padding-bottom: 13rem; background-color: rgb(36, 37, 38);"><div style="opacity: 0; translate: 0px 20px; transition: all 0.5s ease-in-out 0s; width: 100%;"><h1 class="aboutheader" style="padding-bottom: 3em; padding-top: 3em;">About Me </h1></div><div class="aboutme flex"><div style="width: 30rem;"><div style="opacity: 0; translate: 0px 20px; transition: all 0.5s ease-in-out 0s; width: 100%;"><img alt="profilePhoto" src="./React App_files/67543874_2416105221768880_2313676067488923648_n.jpg" style="border-radius: 100rem; width: 100%; height: auto;"></div></div><div style="overflow-wrap: break-word; width: 400px;"><div style="opacity: 0; translate: 0px 20px; transition: all 0.5s ease-in-out 0s; width: 100%;"><p> Enter text here about yourself. As you can see I am a skateboarding cat. Not a lot much else going on, wbu?</p></div></div></div></div><div style="padding-bottom: 5rem;"><div class=""><div style="opacity: 0; translate: 0px 20px; transition: all 0.5s ease-in-out 0s; width: 100%;"><h1 style="padding: 3em;">Projects</h1></div><div style="opacity: 1; translate: none; transition: all 0.5s ease-in-out 0s; width: 100%;"><div class="project-flex-wrapper"><div style="overflow-wrap: break-word; width: 400px; text-align: left;"><h1> FaceGPT</h1><p> this is my project dawg this is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawg</p></div><div style="width: 45rem;"><div style="will-change: transform; transition: all 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><img src="./React App_files/10x-featured-social-media-image-size.png" alt="project" style="width: 100%; height: auto; border-radius: 2rem;"><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 2em; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);"></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 2em; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 817.883px; height: 817.883px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); transition: opacity 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;"></div></div></div></div></div></div><div style="opacity: 0; translate: 0px 20px; transition: all 0.5s ease-in-out 0s; width: 100%;"><div class="project-flex-wrapper"><div style="overflow-wrap: break-word; width: 400px; text-align: left;"><h1> PokeDex</h1><p> this is my project dawg this is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawg</p></div><div style="width: 45rem;"><div style="will-change: transform; transition: all 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><img src="./React App_files/10x-featured-social-media-image-size.png" alt="project" style="width: 100%; height: auto; border-radius: 2rem;"><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 2em; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);"></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 2em; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 817.883px; height: 817.883px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%); transition: opacity 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;"></div></div></div></div></div></div><div style="opacity: 0; translate: 0px 20px; transition: all 0.5s ease-in-out 0s; width: 100%;"><div class="project-flex-wrapper"><div style="overflow-wrap: break-word; width: 400px; text-align: left;"><h1> Student Life Landing Page</h1><p> this is my project dawg this is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawgthis is my project dawg</p></div><div style="width: 45rem;"><div style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><img src="./React App_files/10x-featured-social-media-image-size.png" alt="project" style="width: 100%; height: auto; border-radius: 2rem;"><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 2em; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);"></div></div><div class="glare-wrapper" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 2em; -webkit-mask-image: -webkit-radial-gradient(center, white, black); pointer-events: none;"><div class="glare" style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 817.883px; height: 817.883px; transform: rotate(0deg) translate(-50%, -50%); opacity: 0; background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);"></div></div></div></div></div></div></div></div><div style="opacity: 0; translate: 0px 20px; transition: all 0.5s ease-in-out 0s; width: 100%;"><div class="contact-container"><h1 style="padding: 1em;">Contact Me</h1><div class="contact-wrapper"><p class="cta-text">[Put your call to action here]</p><a rel="noreferrer" target="_blank" class="btn-calltoaction" href="mailto:nisalcottingham@gmail.com">Call to Action</a></div><div style="padding-top: 3em;"><ul class="footer"><li class="footer items">GitHub</li><li class="footer items">LinkedIn</li><li class="footer items">Resume</li></ul></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>
