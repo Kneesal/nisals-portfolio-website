@@ -5,8 +5,7 @@ import './hero.css'
 const Hero = () => {
 
     return(
-        <div className="hero">
-            <img src=""></img>
+        <div className="hero" id="home">
             <h1><Typewriter/></h1>
         </div>
     )

@@ -1,10 +1,12 @@
 import React from "react";
 import './contact.css'
+import { Animate } from "../Animate In/AnimateIn";
 
 const ContactMe = () => {
 
   return (
-      <div className="contact-container">
+    <Animate.FadeUp>
+      <div className="contact-container" id="contact">
             <h1 style = {{ padding: '1em'}} >Contact Me</h1>
             <div className="contact-wrapper">
                 <p className="cta-text">[Put your call to action here]</p>
@@ -23,6 +25,7 @@ const ContactMe = () => {
               </ul>
             </div>
       </div>
+      </Animate.FadeUp>
   );
 };
 

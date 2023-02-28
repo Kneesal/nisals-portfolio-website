@@ -1,6 +1,7 @@
 .nav {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
     padding: 10px;
     height: 3rem;
     z-index: 1;
@@ -16,16 +17,87 @@
 .navColor {
     background-color: rgb(36, 37, 38);
     transition: all 0.5s;
+    opacity: 1;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 0.5s;
 }
 
 .items {
     padding: 20px;
-    transition: 0.3s;
+    transition: all 0.3s;
     height: 100%;
 }
 
 .items:hover {
     scale: 1.2;
-    cursor: pointer;
+    
 }
 
+.burger {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .items {
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s;
+        width: 25%;
+    }
+
+    .show {
+        opacity: 1;
+        background-color: #242526;
+        transition:all 0.5s;
+        height: 100%;
+        padding: 20px;
+        width: 100%;
+        border-color: #242526;
+        margin: -5px;
+    }
+
+    .burger {
+        display: inline;
+        padding: 0px;
+        transition: 0.3s;
+        cursor: pointer;
+        height: 100%;
+        padding-right: 2rem;
+    }
+
+    .burger-container {
+        width: 40px;
+        height: 100%;
+    }
+
+    .block{
+        display: block;
+        transition: 0.3s;
+    }
+
+    .block:hover{
+        scale: 1.2;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .burgerImage {
+        height: 100%;
+        width: 40px;
+    }
+
+    .nav {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    ul.sticky {
+        top: 60px
+    }
+
+  }

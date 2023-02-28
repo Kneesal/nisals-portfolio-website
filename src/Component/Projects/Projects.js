@@ -6,7 +6,7 @@ import {Animate} from '../Animate In/AnimateIn.js'
 const Projects = () => {
 
     return(
-        <div style={{paddingBottom: '5rem'}}>
+        <div style={{paddingBottom: '5rem'}} id = 'projects'>
             <div className="">
             <Animate.FadeUp>
             <h1 style = {{ padding: '3em'}}>Projects</h1>

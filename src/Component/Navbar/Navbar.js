@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "./nav.css";
+import { HashLink } from 'react-router-hash-link';
+
 
 const Navbar = () => {
   const [scrollHeight, setScrollHeight] = useState(0);
+  const [showMenu, setShowMenu] = useState(false)
 
   const handleScroll = () => {
     const scrollY = window.scrollY
     setScrollHeight(scrollY)
   };
 
-  const boxShadow = Math.min(scrollHeight/200 , 5)
+  // const boxShadow = Math.min(scrollHeight/200 , 5)
   // const opacity = Math.min(scrollHeight/500 , 1)
 
   useEffect(() => {
@@ -21,14 +24,19 @@ const Navbar = () => {
     };
   }, []);
 
+  const handleClick = () => {
+    !showMenu ? setShowMenu(true) : setShowMenu(false)
+  } 
+
   return (
     
-    <div>
-      <ul className={ (scrollHeight > 600 ? "navColor sticky nav": "sticky nav")} style={{boxShadow: `0 ${boxShadow}px ${boxShadow *2}px rgb(0 0 0 / 0.2)`, /*opacity: `${opacity}`*/ }}>
-        <li className="items"> Home </li>
-        <li className="items"> About Me</li>
-        <li className="items"> Projects</li>
-        <li className="items"> Contact </li>
+    <div className={ (scrollHeight > 50 ? "navColor sticky nav": "hidden sticky nav")}>
+      <div className=" burger burger-container"><img src="8805049.png" alt ='burger' className="burgerImage"  onClick={handleClick}></img></div>
+      <ul className="sticky nav">
+        <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#home">Home</HashLink></li>
+        <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#aboutme">About Me</HashLink></li>
+        <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#projects"> Projects</HashLink></li>
+        <li className={showMenu ? 'show ': "items"}><HashLink smooth to = "/#contact"> Contact </HashLink></li>
       </ul>
     </div>
   );
