@@ -10,7 +10,7 @@
 .sticky {
     position: fixed;
     top: 0;
-    width: 99%;
+    width: 100%;
     transition: all 1s;
 }
 
@@ -42,7 +42,7 @@
 
 
 @media only screen and (max-width: 600px) {
-    .items {
+    ul[class = 'sticky nav'] >.items {
         opacity: 0;
         pointer-events: none;
         transition: all 0.3s;

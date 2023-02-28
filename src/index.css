@@ -22,3 +22,10 @@ code {
 ul {
   list-style-type: none;
 }
+
+.gradientFont {
+  background: linear-gradient(349deg, rgba(0,56,255,1) 0%, rgba(7,230,208,1) 100%);
+  background-clip: text;
+  color: transparent;
+
+}

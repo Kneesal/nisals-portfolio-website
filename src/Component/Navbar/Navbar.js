@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./nav.css";
 import { HashLink } from 'react-router-hash-link';
+import '../../index.css'
 
 
 const Navbar = () => {
@@ -36,7 +37,7 @@ const Navbar = () => {
         <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#home">Home</HashLink></li>
         <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#aboutme">About Me</HashLink></li>
         <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#projects"> Projects</HashLink></li>
-        <li className={showMenu ? 'show ': "items"}><HashLink smooth to = "/#contact"> Contact </HashLink></li>
+        <li className={showMenu ? 'show ': "items"}><HashLink smooth to = "/#contact" className="gradientFont"> Contact </HashLink></li>
       </ul>
     </div>
   );

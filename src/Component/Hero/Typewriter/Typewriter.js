@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";    
-import './typewriter.css'
+import './typewriter.css';
+import '../../../index.css'
 
 const Typewriter = () => {
     const [index, setIndex] = useState(0) //tracks the index of the wordCarosel
@@ -10,7 +11,7 @@ const Typewriter = () => {
 
 
     useEffect(()=> {
-        const wordCarosel = ['Software Engineer', 'Programmer', 'Meme Lord', 'Gamer']
+        const wordCarosel = ['Software Engineer', 'Programmer', 'Meme Lord']
 
         if(subIndex < wordCarosel[index].length +1 && !reverse){
             setWord(wordCarosel[index].substring(0, subIndex))
@@ -48,9 +49,9 @@ const Typewriter = () => {
         <div>
             <p>Hello my name is Nisal</p>
             <div style={{display: 'flex', alignItems: "center", justifyContent: 'center', gap: '0.2em', flexWrap: "wrap"}}>
-                <div><p> {`I am a `}</p></div>
-                <p style = {{ color: index === 0 ? 'lime' : index === 1 ? "yellow" : index === 2 ? 'pink' : 'purple'}}>{`${word}`}</p>
-                <div className="blinking-cursor"></div>
+                    <p> {`I am a `}</p>
+                    <p className="gradientFont">{`${word}`}</p>
+                    <div className="blinking-cursor gradientFont"></div>
             </div>
         </div>
     )

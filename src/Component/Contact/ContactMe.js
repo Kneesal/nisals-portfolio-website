@@ -9,7 +9,7 @@ const ContactMe = () => {
       <div className="contact-container" id="contact">
             <h1 style = {{ padding: '1em'}} >Contact Me</h1>
             <div className="contact-wrapper">
-                <p className="cta-text">[Put your call to action here]</p>
+                <p className="cta-text">Lets work together!</p>
                 <a
                   rel="noreferrer"
                   target="_blank"

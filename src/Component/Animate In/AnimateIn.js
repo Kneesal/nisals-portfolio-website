@@ -66,9 +66,19 @@ const FadeLeft = ({children}) => {
     )
   }
 
+  const ObserveOnly = ({children}) => {
+
+    return(
+    <AnimateIn from = {{opacity: 1, translate:'none' }} to = {{opacity: 1, translate: 'none'}}>
+      {children}
+    </AnimateIn>
+    )
+  };
+
 
 export const Animate = {
     FadeUp,
     FadeLeft,
-    FadeRight
+    FadeRight,
+    ObserveOnly
 };
