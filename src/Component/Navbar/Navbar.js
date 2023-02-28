@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./nav.css";
-import { NavLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+
 
 const Navbar = () => {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -29,13 +30,13 @@ const Navbar = () => {
 
   return (
     
-    <div className={ (scrollHeight > 0 ? "navColor sticky nav": "sticky nav")}>
+    <div className={ (scrollHeight > 50 ? "navColor sticky nav": "hidden sticky nav")}>
       <div className=" burger burger-container"><img src="8805049.png" alt ='burger' className="burgerImage"  onClick={handleClick}></img></div>
-      <ul className={ (scrollHeight > 600 ? "sticky nav": "sticky nav")}>
-        <li className={showMenu ? 'show ': "items"}><NavLink to="/">Home</NavLink></li>
-        <li className={showMenu ? 'show ': "items"}><NavLink to="/aboutme">About Me</NavLink></li>
-        <li className={showMenu ? 'show ': "items"}><NavLink to="/projects"> Projects</NavLink></li>
-        <li className={showMenu ? 'show ': "items"}><NavLink to = "/contact"> Contact </NavLink></li>
+      <ul className="sticky nav">
+        <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#home">Home</HashLink></li>
+        <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#aboutme">About Me</HashLink></li>
+        <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#projects"> Projects</HashLink></li>
+        <li className={showMenu ? 'show ': "items"}><HashLink smooth to = "/#contact"> Contact </HashLink></li>
       </ul>
     </div>
   );

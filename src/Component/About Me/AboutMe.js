@@ -5,7 +5,7 @@ import { Animate } from '../Animate In/AnimateIn.js'
 const AboutMe = () => {
 
   return (
-    <div style = {{ paddingBottom: '13rem', backgroundColor: "#242526"}}   >
+    <div style = {{ paddingBottom: '13rem', backgroundColor: "#242526"}} id = 'aboutme'  >
       <Animate.FadeUp>
       <h1 
       className={"aboutheader"} 

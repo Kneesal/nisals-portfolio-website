@@ -6,7 +6,7 @@ const ContactMe = () => {
 
   return (
     <Animate.FadeUp>
-      <div className="contact-container">
+      <div className="contact-container" id="contact">
             <h1 style = {{ padding: '1em'}} >Contact Me</h1>
             <div className="contact-wrapper">
                 <p className="cta-text">[Put your call to action here]</p>
