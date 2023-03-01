@@ -8,7 +8,7 @@ const Projects = () => {
     const projectObject = [
         {
             name: 'FaceGPT',
-            description: 'A complex full-stack application that interfaces with the Clarifai API face detection model to detect human faces on any priovided image URL. Users can register and login to their account which keeps track of how many entries they have submitted. Passwords are safe using bycrypt for encryption. KnexJS is used to interface with PSQL DB',
+            description: 'A complex full-stack application that interfaces with the Clarifai API face detection model to detect human faces on any provided image URL. Users can register and login to their account which keeps track of how many entries they have submitted. Passwords are safe using bycrypt for encryption. KnexJS is used to interface with PSQL DB',
             tech: ["React", "postgreSQL", 'Node.JS', 'Express.JS', 'Knex.JS', 'bycrypt', 'gRPC APIs', 'Functional and Class components'],
             seeLiveLink:'',
             GitHub:''
@@ -16,7 +16,7 @@ const Projects = () => {
         },
         {
             name: 'PokeDex',
-            description: `Using the PokeAPI, I created an easy to use pokedex to search your favourite pokmeon. A simple beginner project to show the understanding of the basics of React`,
+            description: `Using the PokeAPI, I created an easy to use pokedex to search your favourite pokemon. A simple beginner project to show the understanding of the basics of React`,
             tech: ["React", 'Rest APIs'],
             seeLiveLink:'',
             GitHub:''

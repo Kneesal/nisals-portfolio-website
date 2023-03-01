@@ -26,7 +26,7 @@ const AboutMe = () => {
             style = {{ overflowWrap: "break-word", width: '400px'}}
             >
               <Animate.FadeUp>
-                <p > Enter text here about yourself. As you can see I am a skateboarding cat. Not a lot much else going on, wbu?</p>
+                <p>Passionate about software development and using my talents </p>
               </Animate.FadeUp>
             </div>
         

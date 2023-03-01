@@ -29,3 +29,9 @@ ul {
   color: transparent;
 
 }
+
+.gradientButton {
+  background: linear-gradient(349deg, rgba(0,56,255,1) 0%, rgba(7,230,208,1) 100%);
+  padding: 0.9em;
+  border-radius: 10px;
+}

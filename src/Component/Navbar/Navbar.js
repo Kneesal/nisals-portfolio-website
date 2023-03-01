@@ -7,23 +7,30 @@ import '../../index.css'
 const Navbar = () => {
   const [scrollHeight, setScrollHeight] = useState(0);
   const [showMenu, setShowMenu] = useState(false)
+  const [viewportWidth, setViewportWidth] = useState(0)
 
   const handleScroll = () => {
-    const scrollY = window.scrollY
-    setScrollHeight(scrollY)
+    return setScrollHeight(window.scrollY)
   };
 
+  const handleResize = () => {
+    return setViewportWidth(window.innerWidth)
+  }
+
+  console.log(viewportWidth)
   // const boxShadow = Math.min(scrollHeight/200 , 5)
   // const opacity = Math.min(scrollHeight/500 , 1)
 
   useEffect(() => {
     
     window.addEventListener("scroll", handleScroll);
-
+    window.addEventListener('resize', handleResize);
+  
     return () => {
       window.removeEventListener("scroll", handleScroll );
+      window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [viewportWidth]);
 
   const handleClick = () => {
     !showMenu ? setShowMenu(true) : setShowMenu(false)
@@ -33,14 +40,15 @@ const Navbar = () => {
     
     <div className={ (scrollHeight > 50 ? "navColor sticky nav": "hidden sticky nav")}>
       <div className=" burger burger-container"><img src="8805049.png" alt ='burger' className="burgerImage"  onClick={handleClick}></img></div>
-      <ul className="sticky nav">
-        <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#home">Home</HashLink></li>
-        <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#aboutme">About Me</HashLink></li>
-        <li className={showMenu ? 'show ': "items"}><HashLink smooth to="/#projects"> Projects</HashLink></li>
-        <li className={showMenu ? 'show ': "items"}><HashLink smooth to = "/#contact" className="gradientFont"> Contact </HashLink></li>
+      <ul className="sticky nav align-center">
+        <li className={showMenu && viewportWidth <= 600 ? 'show ': "items"}><HashLink smooth to="/#home" onClick={(handleClick)}>Home</HashLink></li>
+        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to="/#aboutme">About Me</HashLink></li>
+        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to="/#projects"> Projects</HashLink></li>
+        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to = "/#contact" className={"gradientButton"}> Contact </HashLink></li>
       </ul>
     </div>
   );
 };
 
 export default Navbar;
+
