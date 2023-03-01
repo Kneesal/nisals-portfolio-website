@@ -23,6 +23,14 @@ ul {
   list-style-type: none;
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+
 .gradientFont {
   background: linear-gradient(349deg, rgba(0,56,255,1) 0%, rgba(7,230,208,1) 100%);
   background-clip: text;
@@ -38,12 +46,12 @@ ul {
 
 .animated-btn {
   margin-top: 10px;
-  margin-right: 10px;
+  margin-right: 7px;
   display: inline-block;
   padding: 10px;
   border: 2px solid white
 }
 
-.animated-btn::after {
-  
-}
+/* .animated-btn::after {
+
+} */
