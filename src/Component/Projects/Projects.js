@@ -10,23 +10,23 @@ const Projects = () => {
             name: 'FaceGPT',
             description: 'A complex full-stack application that interfaces with the Clarifai API face detection model to detect human faces on any provided image URL. Users can register and login to their account which keeps track of how many entries they have submitted. Passwords are safe using bycrypt for encryption. KnexJS is used to interface with PSQL DB',
             tech: ["React", "postgreSQL", 'Node.JS', 'Express.JS', 'Knex.JS', 'bycrypt', 'gRPC APIs', 'Functional and Class components'],
-            seeLiveLink:'',
-            GitHub:''
+            seeLiveLink:'https://facegpt.onrender.com/',
+            GitHub:'https://github.com/Kneesal/facerecognitionbrain'
 
         },
         {
             name: 'PokeDex',
             description: `Using the PokeAPI, I created an easy to use pokedex to search your favourite pokemon. A simple beginner project to show the understanding of the basics of React`,
             tech: ["React", 'Rest APIs'],
-            seeLiveLink:'',
-            GitHub:''
+            seeLiveLink:'https://kneesal.github.io/pokedex/',
+            GitHub:'https://github.com/Kneesal/pokedex'
         },
         { 
             name: 'Portfolio Website',
             description: 'A portfolio website to show off my work. On scroll animations with zero dependencies with an animations library that is fully re-usable',
             tech: ["React", "react-router-dom", 'dependency-less animations'],
             seeLiveLink:'',
-            GitHub:''
+            GitHub:'https://github.com/Kneesal/nisals-portfolio-website'
         }
     ]
 
@@ -38,7 +38,7 @@ const Projects = () => {
             <h1 style={{ padding: "3em" }}>Projects</h1>
           </Animate.FadeUp>
           {projectObject.map((project) => {
-          const { name, description, tech } = project;
+          const { name, description, tech, seeLiveLink, GitHub} = project;
           return (
             <Animate.FadeUp>
               <div className="project-flex-wrapper">
@@ -76,6 +76,10 @@ const Projects = () => {
                         );
                       })}
                     </ul>
+                  </div>
+                  <div>
+                    <a className="animated-btn" href={seeLiveLink} target="_blank" rel="noopener noreferrer"> See Live </a>
+                    <a className="animated-btn" href={GitHub} target="_blank" rel="noopener noreferrer"> Github </a>
                   </div>
                 </div>
                 <div style={{ width: "45rem" }}>

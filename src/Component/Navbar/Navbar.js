@@ -17,7 +17,6 @@ const Navbar = () => {
     return setViewportWidth(window.innerWidth)
   }
 
-  console.log(viewportWidth)
   // const boxShadow = Math.min(scrollHeight/200 , 5)
   // const opacity = Math.min(scrollHeight/500 , 1)
 
@@ -25,7 +24,8 @@ const Navbar = () => {
     
     window.addEventListener("scroll", handleScroll);
     window.addEventListener('resize', handleResize);
-  
+    setViewportWidth(window.innerWidth)
+
     return () => {
       window.removeEventListener("scroll", handleScroll );
       window.removeEventListener('resize', handleResize);
