@@ -15,7 +15,7 @@ const ContactMe = () => {
                   target="_blank"
                   className="btn-calltoaction"
                   href="mailto:nisalcottingham@gmail.com"
-                  >Call to Action</a>
+                  >Get in touch!</a>
             </div>
             <div style = {{ paddingTop: '3em'}}>
               <ul className="footer">

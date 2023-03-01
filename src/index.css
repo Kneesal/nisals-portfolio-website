@@ -35,3 +35,15 @@ ul {
   padding: 0.9em;
   border-radius: 10px;
 }
+
+.animated-btn {
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid white
+}
+
+.animated-btn::after {
+  
+}
