@@ -6,7 +6,7 @@ const Hero = () => {
 
     return(
         <div className="hero" id="home">
-            <h1><Typewriter/></h1>
+            <h1 style={{fontSize: '40px'}}><Typewriter/></h1>
         </div>
     )
 }

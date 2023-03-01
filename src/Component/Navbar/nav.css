@@ -1,16 +1,18 @@
 .nav {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
     padding: 10px;
     height: 3rem;
     z-index: 1;
 }
 
+.align-center{
+    align-items: center;
+}
 .sticky {
     position: fixed;
     top: 0;
-    width: 99%;
+    width: 100%;
     transition: all 1s;
 }
 
@@ -25,7 +27,9 @@
     transition: all 0.5s;
 }
 
-.items {
+.items{
+    display: flex;
+    align-items: center;
     padding: 20px;
     transition: all 0.3s;
     height: 100%;
@@ -42,22 +46,30 @@
 
 
 @media only screen and (max-width: 600px) {
-    .items {
+    ul[class = 'sticky nav align-center'] >.items {
         opacity: 0;
         pointer-events: none;
-        transition: all 0.3s;
-        width: 25%;
+        width: 100%;
+        justify-content: flex-end;
+        margin: -5px;
+
+    }
+
+    .items {
+        transition: all 0s;
     }
 
     .show {
+        display: flex;
         opacity: 1;
         background-color: #242526;
-        transition:all 0.5s;
         height: 100%;
         padding: 20px;
         width: 100%;
         border-color: #242526;
         margin: -5px;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     .burger {
@@ -97,7 +109,8 @@
     }
 
     ul.sticky {
-        top: 60px
+        top: 60px;
+        width: 100%;
     }
 
   }
