@@ -78,7 +78,7 @@ const Projects = () => {
                     </ul>
                   </div>
                   <div>
-                    <a className="animated-btn" href={seeLiveLink} target="_blank" rel="noopener noreferrer"> See Live </a>
+                    <a className="animated-btn" href={seeLiveLink} target="_blank" rel="noopener noreferrer">See Live </a>
                     <a className="animated-btn" href={GitHub} target="_blank" rel="noopener noreferrer"> Github </a>
                   </div>
                 </div>
