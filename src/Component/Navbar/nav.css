@@ -35,9 +35,8 @@
     height: 100%;
 }
 
-.items:hover {
+ul[class = 'sticky nav align-center'] .items:hover {
     scale: 1.2;
-    
 }
 
 .burger {

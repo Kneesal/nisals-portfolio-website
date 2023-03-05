@@ -13,15 +13,15 @@ const ContactMe = () => {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  className="btn-calltoaction"
+                  className="animated-btn"
                   href="mailto:nisalcottingham@gmail.com"
-                  >Get in touch!</a>
+                  >Call to Action</a>
             </div>
             <div style = {{ paddingTop: '3em'}}>
               <ul className="footer">
-                <li className="footer items">GitHub</li>
-                <li className="footer items">LinkedIn</li>
-                <li className="footer items">Resume</li>
+                <li className="footer items"><a href="https://github.com/Kneesal"  target="_blank" rel="noopener noreferrer"><img src="githubicon.svg" height='30px' width= '30px' alt="github"></img></a></li>
+                <li className="footer items"><a href="https://www.linkedin.com/in/nisal-cottingham-8b660216b/?originalSubdomain=nz"  target="_blank" rel="noopener noreferrer"><img src="linkedinicon.svg" height='30px' width= '30px' alt="linkedin"></img></a></li>
+                <li className="footer items"><img src="resumeicon.png" height='30px' width= '30px' alt="resume"></img></li>
               </ul>
             </div>
       </div>
