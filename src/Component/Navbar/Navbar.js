@@ -41,10 +41,10 @@ const Navbar = () => {
     <div className={ (scrollHeight > 50 ? "navColor sticky nav": "hidden sticky nav")}>
       <div className=" burger burger-container"><img src="8805049.png" alt ='burger' className="burgerImage"  onClick={handleClick}></img></div>
       <ul className="sticky nav align-center">
-        <li className={showMenu && viewportWidth <= 600 ? 'show ': "items"}><HashLink smooth to="/#home" onClick={(handleClick)}>Home</HashLink></li>
-        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to="/#aboutme">About Me</HashLink></li>
-        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to="/#projects"> Projects</HashLink></li>
-        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to = "/#contact" className={"gradientButton"}> Contact </HashLink></li>
+        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to="/#home" onClick={(handleClick)}>Home</HashLink></li>
+        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to="/#aboutme" onClick={(handleClick)}>About Me</HashLink></li>
+        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to="/#projects" onClick={(handleClick)}> Projects</HashLink></li>
+        <li className={showMenu && viewportWidth <= 600  ? 'show ': "items"}><HashLink smooth to = "/#contact"  className={"gradientButton"} onClick={(handleClick)}> Contact </HashLink></li>
       </ul>
     </div>
   );
