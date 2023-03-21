@@ -51,7 +51,7 @@ ul[class = 'sticky nav align-center'] .items:hover {
         pointer-events: none;
         width: 100%;
         justify-content: flex-end;
-        margin: -5px;
+        margin: -10px;
 
     }
 

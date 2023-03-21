@@ -17,7 +17,7 @@ const Projects = () => {
         {
             name: 'PokeDex',
             description: `Using the PokeAPI, I created an easy to use pokedex to search your favourite pokemon. A simple beginner project to show the understanding of the basics of React`,
-            tech: ["React", 'Rest APIs'],
+            tech: ["React", 'Rest APIs', 'TypeScript'],
             seeLiveLink:'https://kneesal.github.io/pokedex/',
             GitHub:'https://github.com/Kneesal/pokedex'
         },
