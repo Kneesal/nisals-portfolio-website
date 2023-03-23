@@ -6,7 +6,7 @@ const Hero = () => {
 
     return(
         <div className="banner" id="home">
-            <h1 style={{fontSize: '40px'}}><Typewriter/></h1>
+            <Typewriter/>
         </div>
     )
 }

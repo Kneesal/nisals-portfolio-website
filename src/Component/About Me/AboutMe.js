@@ -6,7 +6,7 @@ import profilepic from '../../assets/profilepic.jpeg'
 const AboutMe = () => {
 
   return (
-    <div style = {{ paddingBottom: '13rem', backgroundColor: "#242526"}} id = 'aboutme'  >
+    <div style = {{ paddingBottom: '13rem', backgroundColor: "rgb(24 27 37)"}} id = 'aboutme'  >
       <Animate.FadeUp>
       <h1 
       className={"aboutheader"} 
