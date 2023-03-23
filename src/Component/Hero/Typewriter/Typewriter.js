@@ -46,13 +46,10 @@ const Typewriter = () => {
     
 
     return(
-        <div>
-            <p>Hello my name is Nisal</p>
-            <div style={{display: 'flex', alignItems: "center", justifyContent: 'center', gap: '0.2em', flexWrap: "wrap"}}>
-                    <p> {`I am a `}</p>
-                    <p className="gradientFont">{`${word}`}</p>
-                    <div className="blinking-cursor gradientFont"></div>
-            </div>
+        <div className="typewritereffect">
+            <p style={{fontSize: '40px'}}>Hi, my name is</p>
+            <p style={{fontSize: '80px'}}>Nisal Cottingham</p>
+            <p style={{fontSize: '20px'}}>{`I am a `}<span className="gradientFont">{`${word}`}</span></p>
         </div>
     )
 }
