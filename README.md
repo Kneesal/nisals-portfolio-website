@@ -63,7 +63,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The project is deployed on render
+The public domain is [https://nisals-portfolio.onrender.com](https://nisals-portfolio.onrender.com)
 
 ### `npm run build` fails to minify
 
